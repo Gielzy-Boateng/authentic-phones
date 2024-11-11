@@ -13,7 +13,9 @@ export default function NavBar() {
             height={70}
             className="rounded-2xl"
           /> */}
-          <h1 className="text-xl font-semibold">Authentic Phones</h1>
+          <h1 className="text-xl font-semibold">
+            <Link href={"/"}>Authentic Phones</Link>
+          </h1>
         </div>
 
         <ul className="flex gap-5">
