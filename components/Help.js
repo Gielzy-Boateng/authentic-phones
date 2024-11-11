@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { help } from "@/lib/constants";
-import { WidthConstraint } from ".";
+import WidthConstraint from "@/components/WidthConstraint";
 
 export default function Help() {
   return (

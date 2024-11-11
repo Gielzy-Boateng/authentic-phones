@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { WidthConstraint } from ".";
+import WidthConstraint from "@/components/WidthConstraint";
 import Button from "./Button";
 
 export default function LearnMore() {

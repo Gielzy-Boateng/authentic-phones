@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { footerMedia } from "@/lib/constants";
-import { WidthConstraint } from ".";
+import WidthConstraint from "@/components/WidthConstraint";
 import Link from "next/link";
 
 export default function Footer() {
